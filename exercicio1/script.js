@@ -5,7 +5,7 @@ Crie uma função que receba uma const numérica qualquer. Crie um `if` para ver
 const num = 5
 
 if(num%2===0){
-    console.log("numero é par");
+    console.log(`numero ${num} é par`);
 }else{
-console.log("numero não é par")
+console.log(`numero ${num} é impar`)
 }

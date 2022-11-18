@@ -24,8 +24,8 @@ e caso não seja:
 </details> */
 
 const idade = prompt("qual sua idade")
-const ensinoMedio = prompt("você terminou o ensino medio?")
-const cursandoOutraFaculdade = prompt("você NÃO está cursando o ensino superior?")
+const ensinoMedio = prompt("você terminou o ensino medio?").toLowerCase()
+const cursandoOutraFaculdade = prompt("você NÃO está cursando o ensino superior?").toLowerCase()
 
 if( idade >= 18 && idade <= 130){
 console.log("A pessoa é maior de idade")
@@ -34,19 +34,13 @@ console.log("A pessoa é maior de idade")
 }else{
     console.log("dados invalidos")
 }
-
-
-
 if(ensinoMedio==="sim"){
     console.log("a pessoa terminou o ensino medio")
-}else if(ensinoMedio ==="não" || ensinoMedio==="nao"){
+}else if(ensinoMedio ==="nao" || ensinoMedio==="não"){
     console.log("a pessoa não terminou o ensino medio")
 }else{
     console.log("dados invalidos")
 }
-
-
-
 if(cursandoOutraFaculdade==="sim"){
     console.log("a pessoa não esta cursando outra faculdade")
 }else if(cursandoOutraFaculdade==="não" || cursandoOutraFaculdade==="nao"){
